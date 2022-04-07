@@ -1,0 +1,18 @@
+{
+  "name": "parcel-preact",
+  "private": true,
+  "version": "1.0.0",
+  "license": "MIT",
+  "dependencies": {
+    "components": "^0.1.0",
+    "preact": "^10.7.1"
+  },
+  "devDependencies": {
+    "parcel-bundler": "^1.12.5",
+    "typescript": "^4.6.3"
+  },
+  "scripts": {
+    "dev": "parcel ./src/index.html --no-autoinstall",
+    "build": "parcel build ./src/index.html"
+  }
+}
